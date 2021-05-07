@@ -4,8 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-import eTicaretBackendDemo.Core.abstracts.IValidation;
 import eTicaretBackendDemo.Business.abstracts.IUserManager;
+import eTicaretBackendDemo.Business.abstracts.IValidation;
 import eTicaretBackendDemo.Entities.contretes.User;
 import eTicaretBackendDemo.DataAccess.abstracts.IUserDao;
 import eTicaretBackendDemo.DataAccess.concretes.UserDao;

@@ -1,4 +1,4 @@
-package eTicaretBackendDemo.Core.abstracts;
+package eTicaretBackendDemo.Business.abstracts;
 
 import java.util.List;
 

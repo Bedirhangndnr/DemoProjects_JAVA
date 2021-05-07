@@ -1,9 +1,9 @@
-package eTicaretBackendDemo.Core.concretes;
+package eTicaretBackendDemo.Business.concretes;
 
 import java.util.List;
 import java.util.regex.Pattern;
 
-import eTicaretBackendDemo.Core.abstracts.IValidation;
+import eTicaretBackendDemo.Business.abstracts.IValidation;
 import eTicaretBackendDemo.DataAccess.abstracts.IUserDao;
 import eTicaretBackendDemo.DataAccess.concretes.UserDao;
 import eTicaretBackendDemo.Entities.contretes.User;

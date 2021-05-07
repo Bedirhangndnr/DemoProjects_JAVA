@@ -1,5 +1,6 @@
-package eTicaretBackendDemo.Core;
+package eTicaretBackendDemo.Business.concretes;
 
+import eTicaretBackendDemo.Business.abstracts.IAuthenticationServices;
 import jGoogleAuthentication.jGoogleUserManager;
 
 public class jGoogleAuthenticationAdaptor implements IAuthenticationServices {

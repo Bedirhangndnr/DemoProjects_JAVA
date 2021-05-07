@@ -1,4 +1,4 @@
-package eTicaretBackendDemo.Core;
+package eTicaretBackendDemo.Business.abstracts;
 /**baska sistemlerine direkt baðimli olmamak adina nu interface i kullanacagiz*/
 public interface IAuthenticationServices {
 	void save(String mail, String password);
