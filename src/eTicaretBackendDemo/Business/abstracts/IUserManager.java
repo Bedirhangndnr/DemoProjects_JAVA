@@ -5,6 +5,7 @@ import java.util.List;
 import eTicaretBackendDemo.Entities.contretes.User;
 
 public interface IUserManager {
+	void logIn(String mail, String password);
 	void saveUser(User user);
 	void updateUser(User user);
 	void deleteUser(User user);

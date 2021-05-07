@@ -24,41 +24,41 @@ public class main {
 		usermanager.saveUser(user2);
 		System.out.println("\n\n");
 
-		System.out.println("---------Kayit3:--------- || Sifre 5 karakter");
-		User user3= new User("Legolas", "Gun", 21, "Legolas@gmail.com", "sifre");
-		usermanager.saveUser(user3);
-		System.out.println("\n\n");
-		
-		System.out.println("---------Kayit4:---------");
-		User user4= new User("Lionel Messi", "Gun", 21, "LionelMessi@gmail.com", "sifre3");
-		usermanager.saveUser(user4);
-		System.out.println("\n\n");
-		
-		System.out.println("---------Kayit5:--------- || Mail adresi bir onceki ile ayni");
-		User user5= new User("Lionel Messi", "Gun", 21, "LionelMessi@gmail.com", "sifre3");
-		usermanager.saveUser(user5);
-		System.out.println("\n\n");
-		
-		System.out.println("---------Kayit6:--------- || isim 2 harf");
-		User user6= new User("Li", "Gun", 21, "Williams@gmail.com", "sifre3");
-		usermanager.saveUser(user6);
-		System.out.println("\n\n");
-
-
-
-		
-		System.out.println("CHECK THE CURRENT USER LIST");
-		for (User user_: usermanager.getAllUser()) {
-			System.out.println(user_.getFirstName());
-		}
-		
-		System.out.println("\n"+"Delete a User"+ user.geteMail());
-		usermanager.deleteUser(user);
-		
-		System.out.println("\n"+"CHECK AGAIN:");
-		for (User user_: usermanager.getAllUser()) {
-			System.out.println(user_.getFirstName());
-		}
-		
+//		System.out.println("---------Kayit3:--------- || Sifre 5 karakter");
+//		User user3= new User("Legolas", "Gun", 21, "Legolas@gmail.com", "sifre");
+//		usermanager.saveUser(user3);
+//		System.out.println("\n\n");
+//		
+//		System.out.println("---------Kayit4:---------");
+//		User user4= new User("Lionel Messi", "Gun", 21, "LionelMessi@gmail.com", "sifre3");
+//		usermanager.saveUser(user4);
+//		System.out.println("\n\n");
+//		
+//		System.out.println("---------Kayit5:--------- || Mail adresi bir onceki ile ayni");
+//		User user5= new User("Lionel Messi", "Gun", 21, "LionelMessi@gmail.com", "sifre3");
+//		usermanager.saveUser(user5);
+//		System.out.println("\n\n");
+//		
+//		System.out.println("---------Kayit6:--------- || isim 2 harf");
+//		User user6= new User("Li", "Gun", 21, "Williams@gmail.com", "sifre3");
+//		usermanager.saveUser(user6);
+//		System.out.println("\n\n");
+//
+//
+//
+//		
+//		System.out.println("CHECK THE CURRENT USER LIST");
+//		for (User user_: usermanager.getAllUser()) {
+//			System.out.println(user_.getFirstName());
+//		}
+//		
+//		System.out.println("\n"+"Delete a User"+ user.geteMail());
+//		usermanager.deleteUser(user);
+//		
+//		System.out.println("\n"+"CHECK AGAIN:");
+//		for (User user_: usermanager.getAllUser()) {
+//			System.out.println(user_.getFirstName());
+//		}
+		usermanager.logIn("bedirhangndnr@gmail.com", "MoonlordDayturn");
 	}
 }

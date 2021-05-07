@@ -68,6 +68,18 @@ public class UserManager implements IUserManager{
 		return userDao.getAll();
 	}
 
+	@Override
+	public void logIn(String mail, String password) {
+		for (User user_: this.getAllUser()) {
+			if(user_.geteMail().equals(mail)&& user_.getPassword().equals(password)) {
+				System.out.println(user_.geteMail()+" Hesabina Giris Yapildi.");
+				return;
+			}
+		}
+		System.out.println("Email veya sifre hatali. Giris yapilamadi.");
+		
+	}
+
 
 
 

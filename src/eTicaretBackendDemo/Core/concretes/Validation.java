@@ -53,7 +53,7 @@ public class Validation implements IValidation {
 		return false;
 	}
 
-	String confirmCode="000";
+	String confirmCode="0";
 	@Override
 	public boolean codeIsEqual(String code) {
 		if(confirmCode.equals(code)) {
