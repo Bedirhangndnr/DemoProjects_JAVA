@@ -41,7 +41,7 @@ public class main {
 		User user5= new User("Lionel Messi", "Gun", 21, "LionelMessi@gmail.com", "sifre3");
 		usermanager.saveUser(user5);
 		System.out.println("\n\n");
-		
+		 
 		System.out.println("---------Kayit6:--------- || isim 2 harf");
 		User user6= new User("Li", "Gun", 21, "Williams@gmail.com", "sifre3");
 		usermanager.saveUser(user6);
