@@ -30,7 +30,7 @@ public class UserManager implements IUserManager{
 		boolean mailIsValid=validation.isEmailValid(user,this.getAllUser());
 		boolean nameLastIsValid=validation.isNamesBiggerThanTwo(user);
 		if(parolaIsValid && mailIsValid && nameLastIsValid) {
-			System.out.println("Giris bilgileriniz uygun, lutfen mail adresinize gonderilen kodu giriniz, demo code: 000");
+			System.out.println("Giris bilgileriniz uygun, lutfen mail adresinize gonderilen kodu giriniz, demo code: 0");
 			@SuppressWarnings("resource")
 			Scanner confirmMail_ = new Scanner(System.in);
 			String cm = confirmMail_.next();
