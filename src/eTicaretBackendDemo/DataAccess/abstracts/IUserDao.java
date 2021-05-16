@@ -9,5 +9,5 @@ public interface IUserDao {
 	void update(User user);
 	void delete(User user);
 	User get(User user);
-	List<User>getAll();// Products array'i dondur.
+	List<User>getAll();
 }
